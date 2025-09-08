@@ -1,0 +1,14 @@
+#about {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 0 auto;
+}
