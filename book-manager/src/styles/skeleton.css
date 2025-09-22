@@ -1,0 +1,18 @@
+.skeleton {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background: #f0f0f0;
+  border-radius: 8px;
+  animation: pulse 1.5s infinite;
+}
+
+.skeleton-title { width: 200px; height: 20px; background: #ddd; }
+.skeleton-button { width: 60px; height: 20px; background: #ddd; border-radius: 4px; }
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
